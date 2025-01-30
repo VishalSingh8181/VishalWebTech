@@ -1991,3 +1991,50 @@ body .body-overlay {
 .global-color .setting-toggle i {
     animation: rotating 3s infinite linear !important;
 }
+
+
+
+
+
+
+ 
+section h1 {
+	 font-size: 1.5em;
+	 text-decoration: none;
+}
+ @media (max-width: 768px) {
+	section h1 {
+		 font-size: 1.3em;
+	}
+}
+ .text-shadow {
+	 
+	 text-transform: capitalize;
+	 color: transparent;
+	 -webkit-text-stroke: #fff;
+	 -webkit-text-stroke-width: 1px;
+	 text-shadow: 2px 2px 10px #2962ff;
+	 transition: all 0.5s ease-in-out;
+	 text-align: center;
+	 letter-spacing: 0.2em;
+	 animation: flicker 0.5s ease-in-out infinite alternate;
+}
+ .text-shadow:hover {
+	 color: #fff;
+}
+ @media (max-width: 768px) {
+	 .tags small {
+		 font-size: 0.8em;
+	}
+}
+ @keyframes flicker {
+	 0% {
+		 opacity: 0.5;
+		 text-shadow: 2px 2px 10px #2962ff;
+	}
+	 100% {
+		 opacity: 1;
+		 text-shadow: 2px 2px 20px #2962ff;
+	}
+}
+ 
